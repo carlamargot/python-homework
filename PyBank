@@ -157,3 +157,26 @@ Feb-2016    1
 Name: Date, Length: 86, dtype: int64
 
 # Question 1: 86 is the number of unique value counts in the Py_Bank_Data 
+
+# Net total of profit/losses amount over the entire period 
+​
+print(budget_data)
+        Date  Profit/Losses month  year
+0   Jan-2010         867884   Jan  2010
+1   Feb-2010         984655   Feb  2010
+2   Mar-2010         322013   Mar  2010
+3   Apr-2010         -69417   Apr  2010
+4   May-2010         310503   May  2010
+..       ...            ...   ...   ...
+81  Oct-2016         102685   Oct  2016
+82  Nov-2016         795914   Nov  2016
+83  Dec-2016          60988   Dec  2016
+84  Jan-2017         138230   Jan  2017
+85  Feb-2017         671099   Feb  2017
+
+[86 rows x 4 columns]
+revenue = budget_data['Profit/Losses'].sum()
+print(revenue)   
+​
+#this is the sum of the profit/losses 
+38382578
