@@ -4,7 +4,7 @@ In this assignment we explored with different parameters and training steps to m
 I found that my LSTM - RNN model had a better loss overtime and that it was a better predictor of the actual closing values over time. 
 Based on my experimentation with the models, I found that the a three day window reduced the most loss. 
 
-Here is an image of both results: 
+Here is an image of each result: 
 
 
 
